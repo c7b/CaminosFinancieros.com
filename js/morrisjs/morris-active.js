@@ -57,53 +57,53 @@ Morris.Area({
 Morris.Area({
         element: 'extra-area-chart',
         data: [{
-            period: '2010',
-            CSE: 50,
-            Accounting: 80,
-            Electrical: 20
+            period: '2019-10',
+            CETES: 949,
+            AFORE: 1538,
+            BMV: 20
         }, {
-            period: '2011',
-            CSE: 130,
-            Accounting: 100,
-            Electrical: 80
+            period: '2019-12',
+            CETES: 956,
+            AFORE: 1540,
+            BMV: 80
         }, {
-            period: '2012',
-            CSE: 80,
-            Accounting: 60,
-            Electrical: 70
+            period: '2020-02',
+            CETES: 965,
+            AFORE: 1580,
+            BMV: 70
         }, {
-            period: '2013',
-            CSE: 70,
-            Accounting: 200,
-            Electrical: 140
+            period: '2020-04',
+            CETES: 973,
+            AFORE: 1587,
+            BMV: 140
         }, {
-            period: '2014',
-            CSE: 180,
-            Accounting: 150,
-            Electrical: 140
+            period: '2020-06',
+            CETES: 979,
+            AFORE: 1603,
+            BMV: 1911
         }, {
-            period: '2015',
-            CSE: 105,
-            Accounting: 100,
-            Electrical: 80
+            period: '2020-08',
+            CETES: 984,
+            AFORE: 1610,
+            BMV: 1924
         },
          {
-            period: '2016',
-            CSE: 250,
-            Accounting: 150,
-            Electrical: 200
+            period: '2020-10',
+            CETES: 993,
+            AFORE: 1655,
+            BMV: 2081
         }],
         xkey: 'period',
-        ykeys: ['CSE', 'Accounting', 'Electrical'],
-        labels: ['CSE', 'Accounting', 'Electrical'],
+        ykeys: ['CETES', 'AFORE', 'BMV'],
+        labels: ['CETES', 'AFORE', 'BMV'],
         pointSize: 3,
         fillOpacity: 0,
-        pointStrokeColors:['#006DF0', '#933EC5', '#65b12d'],
+        pointStrokeColors:['#933EC5', '#65B12D', '#D80027'],
         behaveLikeLine: true,
         gridLineColor: '#e0e0e0',
         lineWidth: 1,
         hideHover: 'auto',
-        lineColors: ['#006DF0', '#933EC5', '#65b12d'],
+        lineColors: ['#933EC5', '#65B12D', '#D80027'],
         resize: true
         
     });
