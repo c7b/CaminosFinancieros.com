@@ -3,45 +3,45 @@
 Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2012',
-            Python: 0,
-            PHP: 0,
-            Java: 0
+            period: '2020',
+            Modulo_1: 86000,
+            Modulo_2: 0,
+            Modulo_3: 0
         }, {
-            period: '2013',
-            Python: 100,
-            PHP: 80,
-            Java: 65
+            period: '2021',
+            Modulo_1: 103200,
+            Modulo_2: 77400,
+            Modulo_3: 0
         }, {
-            period: '2014',
-            Python: 180,
-            PHP: 150,
-            Java: 120
+            period: '2022',
+            Modulo_1: 136224,
+            Modulo_2: 92880,
+            Modulo_3: 73100
         }, {
-            period: '2015',
-            Python: 100,
-            PHP: 70,
-            Java: 40
+            period: '2023',
+            Modulo_1: 245203,
+            Modulo_2: 122601,
+            Modulo_3: 87720
         }, {
-            period: '2016',
-            Python: 180,
-            PHP: 150,
-            Java: 120
+            period: '2024',
+            Modulo_1: 519831,
+            Modulo_2: 220682,
+            Modulo_3: 115790
         }, {
-            period: '2017',
-            Python: 100,
-            PHP: 70,
-            Java: 40
+            period: '2025',
+            Modulo_1: 675780,
+            Modulo_2: 467847,
+            Modulo_3: 208422
         },
          {
-            period: '2018',
-            Python: 180,
-            PHP: 150,
-            Java: 120
+            period: '2026',
+            Modulo_1: 878514,
+            Modulo_2: 608202,
+            Modulo_3: 441856
         }],
         xkey: 'period',
-        ykeys: ['Python', 'PHP', 'Java'],
-        labels: ['Python', 'PHP', 'Java'],
+        ykeys: ['Modulo_1', 'Modulo_2', 'Modulo_3'],
+        labels: ['Modulo_1', 'Modulo_2', 'Modulo_3'],
         pointSize: 0,
         fillOpacity: 0.99,
         pointStrokeColors:['#65b12d', '#933EC5 ', '#006DF0'],
@@ -58,34 +58,34 @@ Morris.Area({
         element: 'extra-area-chart',
         data: [{
             period: '2019-10',
-            CETES: 949,
-            AFORE: 1538,
-            BMV: 20
+            CETES: 801,
+            AFORE: 1062,
+            BMV: 1562
         }, {
             period: '2019-12',
-            CETES: 956,
-            AFORE: 1540,
-            BMV: 80
+            CETES: 653,
+            AFORE: 1326,
+            BMV: 1640
         }, {
             period: '2020-02',
-            CETES: 965,
-            AFORE: 1580,
-            BMV: 70
+            CETES: 713,
+            AFORE: 1390,
+            BMV: 1869
         }, {
             period: '2020-04',
-            CETES: 973,
-            AFORE: 1587,
-            BMV: 140
+            CETES: 863,
+            AFORE: 1798,
+            BMV: 1455
         }, {
             period: '2020-06',
-            CETES: 979,
-            AFORE: 1603,
-            BMV: 1911
+            CETES: 879,
+            AFORE: 1521,
+            BMV: 2038
         }, {
             period: '2020-08',
-            CETES: 984,
-            AFORE: 1610,
-            BMV: 1924
+            CETES: 1335,
+            AFORE: 1188,
+            BMV: 1909
         },
          {
             period: '2020-10',
