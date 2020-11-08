@@ -44,12 +44,12 @@ Morris.Area({
         labels: ['Modulo_1', 'Modulo_2', 'Modulo_3'],
         pointSize: 0,
         fillOpacity: 0.99,
-        pointStrokeColors:['#65b12d', '#933EC5 ', '#006DF0'],
+        pointStrokeColors:['#00A15A', '#FEF200 ', '#3C4993'],
         behaveLikeLine: true,
         gridLineColor: '#e0e0e0',
         lineWidth:0,
         hideHover: 'auto',
-        lineColors: ['#65b12d', '#933EC5 ', '#006DF0'],
+        lineColors: ['#00A15A', '#FEF200 ', '#3C4993'],
         resize: true
         
     });
